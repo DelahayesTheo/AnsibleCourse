@@ -1,0 +1,5 @@
+---
+- hosts: loadbalancer_grp
+  become: true
+  roles:
+    - nginx

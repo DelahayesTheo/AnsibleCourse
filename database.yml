@@ -1,0 +1,5 @@
+---
+- hosts: database_grp
+  become: true
+  roles:
+    - mysql
