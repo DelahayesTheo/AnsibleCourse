@@ -1,0 +1,5 @@
+---
+ansible_become_pass: "{{ vault_become_pass }}"
+db_name: demo
+db_user: demo
+db_pass: "{{ vault_db_pass }}"
